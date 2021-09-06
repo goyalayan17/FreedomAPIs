@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreedomAPI", "FreedomAPI.csproj", "{82F16EBA-67E4-4FB4-BF05-B67DC11494EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreedomAPI", "FreedomAPI.csproj", "{82F16EBA-67E4-4FB4-BF05-B67DC11494EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Freedom.App.BusinessOperation", "..\Freedom.App.BusinessOperation\Freedom.App.BusinessOperation.csproj", "{676C3613-85C8-4092-8BE9-94BCA44B27B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Freedom.App.Common", "..\Freedom.App.Common\Freedom.App.Common.csproj", "{D4F569F1-6650-4A19-B592-C9D1B7D59395}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Freedom.App.Contract", "..\Freedom.App.Contract\Freedom.App.Contract.csproj", "{991D0D28-C6EC-4D90-AC43-71137FBE92D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Freedom.App.DataAccess", "..\Freedom.App.DataAccess\Freedom.App.DataAccess.csproj", "{F4C192A2-3463-4908-8B16-11B0AEDD287B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{82F16EBA-67E4-4FB4-BF05-B67DC11494EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82F16EBA-67E4-4FB4-BF05-B67DC11494EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82F16EBA-67E4-4FB4-BF05-B67DC11494EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{676C3613-85C8-4092-8BE9-94BCA44B27B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{676C3613-85C8-4092-8BE9-94BCA44B27B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{676C3613-85C8-4092-8BE9-94BCA44B27B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{676C3613-85C8-4092-8BE9-94BCA44B27B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4F569F1-6650-4A19-B592-C9D1B7D59395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4F569F1-6650-4A19-B592-C9D1B7D59395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4F569F1-6650-4A19-B592-C9D1B7D59395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4F569F1-6650-4A19-B592-C9D1B7D59395}.Release|Any CPU.Build.0 = Release|Any CPU
+		{991D0D28-C6EC-4D90-AC43-71137FBE92D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{991D0D28-C6EC-4D90-AC43-71137FBE92D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{991D0D28-C6EC-4D90-AC43-71137FBE92D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{991D0D28-C6EC-4D90-AC43-71137FBE92D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4C192A2-3463-4908-8B16-11B0AEDD287B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4C192A2-3463-4908-8B16-11B0AEDD287B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4C192A2-3463-4908-8B16-11B0AEDD287B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4C192A2-3463-4908-8B16-11B0AEDD287B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
