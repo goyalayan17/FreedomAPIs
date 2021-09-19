@@ -4,4 +4,9 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Freedom.App.Contract\Freedom.App.Contract.csproj" />
+    <ProjectReference Include="..\Freedom.App.DataAccess\Freedom.App.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>
